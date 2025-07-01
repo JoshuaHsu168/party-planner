@@ -1,0 +1,20 @@
+.lineup {
+  list-style: none;
+  display: grid;
+  gap: 1ch;
+}
+
+.lineup a {
+  color: unset;
+  text-decoration: unset;
+
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 0.25rem;
+  padding: 1ch;
+}
+
+.lineup a:hover {
+  background: #eee;
+}
